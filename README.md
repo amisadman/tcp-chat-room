@@ -2,6 +2,12 @@
 
 A robust, modular TCP-based chat application built with Node.js and TypeScript. This repository contains both the core TCP server and client implementations, alongside a full Web Bridge that powers a browser-based GUI.
 
+## Preview
+
+| Desktop Version | Mobile Version |
+| :---: | :---: |
+| ![Desktop Demo](./Resources/laptop_demo.png) | ![Mobile Demo](./Resources/mobile_phone_demo.jpeg) |
+
 ## Project Architecture
 
 The project has been refactored into a clear, modular architecture, utilizing modern Functional Programming principles and explicitly passing state across modules.
