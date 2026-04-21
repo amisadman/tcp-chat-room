@@ -45,5 +45,17 @@ npm start
 # Open your browser and navigate to http://localhost:8080
 ```
 
+## Accessing from Other Devices (LAN)
 
-> **Note:** The server binds to `0.0.0.0` by default making it accessible across your LAN. You can provide the host computer's local IP address as an argument to `npm run client <IP>` if testing terminal chatter from different computers.
+To access the chat from your phone or another computer on the same Wi-Fi:
+
+1. **Find your computer's Local IP Address:**
+   - **Windows:** Open Command Prompt and type `ipconfig`. Look for "IPv4 Address" under your Wi-Fi or Ethernet adapter (e.g., `192.168.x.x`).
+   - **macOS/Linux:** Open Terminal and type `ifconfig` or `ip addr`. Look for the `inet` address under `en0` or `wlan0`.
+
+2. **Connect via Browser:**
+   - Open the browser on your phone/other device.
+   - Type `http://<YOUR_IP_ADDRESS>:8080` (e.g., `http://192.168.110.61:8080`).
+
+3. **Firewall Note:**
+   If it doesn't load, ensure your Windows Firewall allows incoming connections on port `8080` (Web) and `3000` (TCP Server).
