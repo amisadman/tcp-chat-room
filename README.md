@@ -1,21 +1,21 @@
-# TCP LAN Chat App
+# 🐾 Meow Chat | TCP LAN Room
 
-A robust, modular TCP-based chat application built with Node.js and TypeScript. This repository contains both the core TCP server and client implementations, alongside a full Web Bridge that powers a browser-based GUI.
+A robust, modular, and **purr-fectly** designed TCP-based chat application. Built with Node.js and TypeScript, this repo features a feline-friendly web UI and a high-performance TCP core.
 
 ## Preview
 
-| Desktop Version | Mobile Version |
-| :---: | :---: |
-| ![Desktop Demo](./Resources/laptop_demo.png) | ![Mobile Demo](./Resources/mobile_phone_demo.jpeg) |
+| Welcome Screen | Desktop Chat | Mobile Chat |
+| :---: | :---: | :---: |
+| ![Homepage](./Resources/homepage_desktop.png) | ![Desktop Chat](./Resources/chat_desktop.png) | ![Mobile Chat](./Resources/chat_mobile.jpeg) |
 
 ## Project Architecture
 
-The project has been refactored into a clear, modular architecture, utilizing modern Functional Programming principles and explicitly passing state across modules.
+The project is split into modular components that communicate like a well-coordinated pack of kittens.
 
 ```text
 src/
 ├── config/
-│   └── index.ts          # Centralized configuration (ports, hostnames, etc.)
+│   └── index.ts          # Centralized configuration (ports, catnip, etc.)
 ├── types/
 │   └── index.ts          # Shared TypeScript interfaces & types (e.g., ClientNode)
 ├── server/
